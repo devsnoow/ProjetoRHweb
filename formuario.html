@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="background">
+    <main class="box">
+
+    <div class="campo">
+        <h1 id="Titulo">Se comunique aqui</h1>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="text">
+                <label for="nome"><strong>Nome Completo</strong></label><br>
+                <div class="tex">
+                <input type="text" , placeholder="digite o nome aqui..." , name="nome" , id="nome" , class="input" required>
+                </div>
+            </div><br><br>
+            <div class="text">
+            <label for="escolha"><strong>O que você deseja?</strong></label><br>
+                <select id="Escolha">
+                <option selected disabled value="">Selecione...</option>
+                <option>Informar problema</option>
+                <option>Sugestão</option>
+                <option>Avaliar a atuação do site</option>
+            </select>
+            </div><br><br>
+            <div id="check">
+                <label for="escolha"><strong>Em qual área você acha que isso se enquadra?</strong></label><br>
+                <select id="Escolha">
+                    <option selected disabled value="">Selecione...</option>
+                    <option>Administrativo</option>
+                    <option>Docente</option>
+                    <option>Segurança</option>
+                    <option>Acadêmico</option>
+                    <option>Avaliação</option>
+                    <option>Disigne</option>
+                </select>
+            </div><br><br>
+            <fieldset class="grupo">
+                <div id="campo">
+                    <label for="bloco"><strong>Informe o Bloco:</strong></label>
+                    <br>
+                    <select id="Escolha">
+                    <option selected disabled value="">Bloco...</option>
+                    <option>Bloco A</option>
+                    <option>Bloco B</option>
+                    <option>Bloco C</option>
+                    <option>Bloco G</option>
+                    <option>Anexo A</option>
+                    <option>Anexo B</option>
+                    <option>Laboratório</option>
+                    </select>    
+                </div><br><br>
+                <div class="text">
+                <label for="nome"><strong>Informe o problema:</strong></label><br>
+<div class="tex"><textarea type="text"style="resize:none"placeholder="digite o nome aqui:"name="nome"id="nome"class="input"required></textarea></div><br><br></fieldset><br><br>
+                <div class="campo">
+                <button class="botão" type="submit">Enviar</button>
+            </div>
+    </form>
+    <footer class="rodape">
+        <p><strong>Está com dúvidas? Procure pela [Nome do Site] na instituição.</strong></p>
+    </footer>
+    <footer class="rodape2">
+    </footer>
+</main>
+    </div>
+</body>
+
+</html>

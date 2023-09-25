@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/vagas.css">
+    <title>Vagas</title>
+</head>
+<body>
+    <nav>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul>
+            <li> <button class="inicio"><a href="sobre_log.html"> Início</a> </button></li>
+
+            <li> <div id="pesquiza">
+                <input type="text" id="busca" placeholder="Área..."/>
+              </div>
+            </li>
+
+            <li> <div id="pesquiza">
+                <input type="text" id="busca" placeholder="Local..."/>
+              </div>
+            </li>
+
+            <li> 
+                <div>
+                    <select name="plataforma" required="required" class="options">
+                        <option>Carga horária</option>
+                        <option>Diurna</option>
+                        <option>Noturna</option>
+                        <option>Intermitente</option>
+                        <option>Parcial</option>
+                        <option>Remota</option>
+                    </select> 
+                </div>
+            </li>
+
+            <li><button class="botão"><img src="img/lupa.png" width="15px"></button></li>
+
+        </ul>
+
+    </nav>
+    <script src="js/main.js"></script>
+</body>
+</html>
